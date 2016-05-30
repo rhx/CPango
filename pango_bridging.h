@@ -37,6 +37,8 @@ struct _PangoScriptForLang {};
 struct _PangoScriptIter {};
 struct _PangoTabArray {};
 
+#define PANGO_ENABLE_BACKEND
+#define PANGO_ENABLE_ENGINE
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <pango/pango.h>
 #include <pango/pango-attributes.h>
