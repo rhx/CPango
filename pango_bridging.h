@@ -52,3 +52,9 @@ struct _PangoTabArray {};
 #include <pango/pangofc-font.h>
 #include <pango/pangofc-fontmap.h>
 #include <pango/pangoft2.h>
+
+typedef struct {
+	const char lang[6];
+	PangoScript scripts[3];
+} PangoScriptForLang;
+
