@@ -1,3 +1,42 @@
+struct _PangoAttrIterator {};
+struct _PangoAttrList {};
+struct _PangoContext {};
+struct _PangoContextClass {};
+struct _PangoCoverage {};
+struct _PangoEngine {};
+struct _PangoEngineClass {};
+struct _PangoEngineInfo {};
+struct _PangoEngineLang {};
+struct _PangoEngineLangClass {};
+struct _PangoEngineScriptInfo {};
+struct _PangoEngineShape {};
+struct _PangoEngineShapeClass {};
+struct _PangoFont {};
+struct _PangoFontClass {};
+struct _PangoFontDescription {};
+struct _PangoFontFace {};
+struct _PangoFontFaceClass {};
+struct _PangoFontFamily {};
+struct _PangoFontFamilyClass {};
+struct _PangoFontMap {};
+struct _PangoFontMapClass {};
+struct _PangoFontMetrics {};
+struct _PangoFontset {};
+struct _PangoFontsetClass {};
+struct _PangoFontsetSimple {};
+struct _PangoFontsetSimpleClass {};
+struct _PangoIncludedModule {};
+struct _PangoLanguage {};
+struct _PangoLayout {};
+struct _PangoLayoutClass {};
+struct _PangoLayoutIter {};
+struct _PangoMap {};
+struct _PangoMapEntry {};
+struct _PangoRendererPrivate {};
+struct _PangoScriptForLang {};
+struct _PangoScriptIter {};
+struct _PangoTabArray {};
+
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <pango/pango.h>
 #include <pango/pango-attributes.h>
