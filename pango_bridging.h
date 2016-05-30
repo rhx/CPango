@@ -6,7 +6,6 @@ struct _PangoCoverage {};
 struct _PangoFontDescription {};
 struct _PangoFontsetSimple {};
 struct _PangoFontsetSimpleClass {};
-struct _PangoIncludedModule {};
 struct _PangoLanguage {};
 struct _PangoLayout {};
 struct _PangoLayoutClass {};
