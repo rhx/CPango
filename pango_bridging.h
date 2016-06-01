@@ -17,6 +17,13 @@ struct _PangoScriptForLang {};
 struct _PangoScriptIter {};
 struct _PangoTabArray {};
 
+struct _PangoCairoCoreTextFont {};
+struct _PangoCairoCoreTextFontClass {};
+struct _PangoCairoCoreTextFontMap {};
+struct _PangoCairoFcFontMap {};
+struct _PangoCairoFont {};
+struct _PangoCairoFontMap {};
+
 #define PANGO_ENABLE_BACKEND
 #define PANGO_ENABLE_ENGINE
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
@@ -57,4 +64,3 @@ typedef struct {
 	const char lang[6];
 	PangoScript scripts[3];
 } PangoScriptForLang;
-
