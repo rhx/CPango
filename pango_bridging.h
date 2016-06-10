@@ -54,11 +54,13 @@ struct _PangoCairoFontMap {};
 #include <pango/pango-types.h>
 #include <pango/pango-utils.h>
 #include <pango/pangocairo.h>
-#include <pango/pangocoretext.h>
 #include <pango/pangofc-decoder.h>
 #include <pango/pangofc-font.h>
 #include <pango/pangofc-fontmap.h>
 #include <pango/pangoft2.h>
+#ifdef __APPLE__
+#include <pango/pangocoretext.h>
+#endif
 
 typedef struct {
 	const char lang[6];
