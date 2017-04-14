@@ -27,6 +27,7 @@ struct _PangoCairoFontMap {};
 #define PANGO_ENABLE_BACKEND
 #define PANGO_ENABLE_ENGINE
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
+#include <sys/types.h>
 #include <pango/pango.h>
 #include <pango/pango-attributes.h>
 #include <pango/pango-bidi-type.h>
